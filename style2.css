@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.pricing-table {
+  background: linear-gradient(to bottom, #cc1616, #710a0a);
+  padding: 40px 0px;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+}
+.pricing-table img{
+  width: 200px;
+  height: auto;
+}
+
+.pricing-table .details {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: white;
+}
+
+.pricing-table .details h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 1000;
+}
+
+.pricing-table .details p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pricing-table .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 0px;
+  padding: 20px;
+}
+
+.pricing-table .grid .box {
+  width: 250px;
+  border: 1px solid #eee;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.05);
+  margin: 10px;
+  background: linear-gradient(to bottom, #1a37ab, #05196b);
+  color: #fff;
+}
+
+.pricing-table .grid .box .title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #eee;
+}
+
+.pricing-table .grid .box .price {
+  margin-bottom: 20px;
+}
+
+.pricing-table .grid .box .price b {
+  display: block;
+  font-size: 40px;
+  margin-bottom: -5px;
+}
+
+.pricing-table .grid .box .button button {
+  width: 100%;
+  margin: 25px 0px 0px;
+  padding: 10px;
+  
+  border-radius: 5px;
+  color: ##05196b;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pricing-table .grid .box.lifetime {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom, #cc1616, #710a0a);
+}
+
+.pricing-table .grid .box.lifetime .title {
+  color: #eee;
+}
+
+.pricing-table .grid .box.lifetime .price {
+  color: #fff;
+}
+
+.pricing-table .grid .box .feature > * {
+  color: #eee;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px 0px;
+}
+
+.pricing-table .grid .box.lifetime .feature > * {
+  color: #fff;
+}
+
+.pricing-table .grid .box.lifetime .button button {
+  background: #fff;
+  color: #cc1616;
+  width: 100%;
+}
+.joinlink{
+  margin: 10px 10px 10px 10px;
+}
+.joinlink a{
+  background: #05196b;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  transition: all .55s ease;
+  line-height: 1.4;
+}
+
+img[src="https://www.000webhost.com/static/default.000webhost.com/images/powered-by-000webhost.png"]
+
+{
+
+    display: none;
+}
